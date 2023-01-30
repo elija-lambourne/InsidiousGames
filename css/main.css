@@ -1,0 +1,86 @@
+.auto-type{
+  font-weight: bold;
+}
+
+.index-main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.head-container{
+  position: relative;
+}
+.head-container video{
+  display: block;
+}
+.our-work{
+  background: #323232;
+}
+.our-work h3{
+  padding: 1rem;
+}
+
+.games video{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.career img{
+  display: block;
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+}
+.text-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-container{
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+}
+.text-container *{
+  margin: auto;
+}
+.career-text{
+  width: 8rem;
+}
+.counters{
+  text-align: center;
+  background-color: #323232;
+  padding: 1rem;
+}
+
+.card{
+  border: none;
+  max-width: 15rem;
+  background: inherit;
+}
+.card > *{
+  background: none;
+  border: none;
+}
+#ppl-cnt,#func-cnt,#task-cnt{
+  padding-top: 0;
+  font-size: 1.5rem;
+}
+.card > *:not(#ppl-cnt,#func-cnt,#task-cnt){
+  padding-top: 0;
+  margin-top: -.8rem;
+  padding-bottom: 1rem;
+}
+
+.card-footer{
+  text-align: left;
+  line-height: 1.2rem;
+}
+
+.news-hover:hover{
+  color: royalblue;
+}

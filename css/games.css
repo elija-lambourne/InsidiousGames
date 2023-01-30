@@ -1,0 +1,40 @@
+html{
+    background-color: #36393e;
+}
+body {
+    background-color: #36393e;
+}
+
+.card{
+    max-width: 360px;
+    text-align: center;
+    background: #0d0d0d;
+    border-radius: .2rem;
+    border: 0;
+    padding: .5rem;
+}
+.card-img-top{
+    max-width: 360px;
+    max-height: 360px;
+}
+.content{
+    background-size: cover;
+    background: url("../img/wolf_background.jpg") no-repeat fixed;
+    height: 100%;
+}
+.content *{
+    position: relative;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 2rem 0;
+    padding: 2rem;
+}
+.card:hover{
+    box-shadow: 0 0 2.5rem #841c13;
+}
+
+@media only screen and (max-width: 100px) {
+    
+}

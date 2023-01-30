@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/increaseCnt.js"></script>
+
+    <meta charset="utf-8">
+    <title>Microproject</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+</head>
+
+<body>
+
+<ul class="navigation list-unstyled">
+    <li class="comp-name lead text-uppercase">
+        <a class="no-hover" href="index.html">Insidious Games</a>
+    </li>
+    <li class="text-uppercase">
+        <a class="nav-hover" href="pages/games.html">Games</a>
+    </li>
+    <li class="text-uppercase">
+        <a class="nav-hover" href="pages/jobs.html">Career</a>
+    </li>
+    <li class="text-uppercase">
+        <a class="nav-hover" href="http://www.savewalterwhite.com">Pre-Order</a>
+    </li>
+</ul>
+
+<article>
+    <section>
+        <div class="head-container">
+            <video autoplay muted loop src="videos/programming_background.mp4" width="100%"></video>
+            <div class="index-main">
+                <h1>Insidious Games</h1>
+                <p>We are an independent game development team of two, which function as <span class="auto-type"></span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-work">
+        <div class="career position-relative">
+            <img alt="A picture of a business meeting" src="img/career_background.jpg">
+            <a href="./pages/games.html" >
+                <div class="text-container career-text">
+                    <span class="lead text-uppercase news-hover">Career</span>
+                    <span class="badge bg-secondary text-uppercase">Jobs</span>
+                </div>
+            </a>
+        </div>
+        <div class="games position-relative">
+            <video autoplay muted loop src="videos/game_background.mp4"></video>
+            <a href="./pages/games.html" >
+                <div class="text-container">
+                <span class="lead text-uppercase news-hover">Immersive Experiences</span>
+                <span class="badge bg-secondary text-uppercase">Games</span>
+            </div>
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <div class="counters d-flex justify-content-between">
+            <div class="card mx-auto">
+                <span class="card-header" id="ppl-cnt">0</span>
+                <span class="card-text">People</span>
+                <span class="card-footer">
+                    There are 2 people which
+                    currently work at Insidious Games
+                </span>
+            </div>
+            <div class="card mx-auto">
+                <span class="card-header" id="func-cnt">0</span>
+                <span class="card-text">Functions</span>
+                <span class="card-footer">
+                    Two employees of Insidious Games
+                    currently fulfill a lot of different positions
+                </span>
+            </div>
+            <div class="card mx-auto">
+                <span class="card-header" id="task-cnt">0</span>
+                <span class="card-text">Tasks</span>
+                <span class="card-footer">
+                    There are 13 open tasks
+                    which have priority and need to be completed
+                </span>
+            </div>
+        </div>
+    </section>
+</article>
+
+<div class="footer">
+    <p class="lead text-uppercase">Insidious Games</p>
+    <p class="copyright-disc">Copyright © 2023 Insidious Games OG</p>
+
+    <div class="footer-links">
+        <a href="">Legal Stuff</a>
+        <span>|</span>
+        <a href="">Privacy Policy</a>
+        <span>|</span>
+        <a href="">Security</a>
+    </div>
+</div>
+</body>
+
+<script>
+    const type = new Typed(".auto-type", {
+        strings: ["developers.", "game designers.", "visual artists.", "UI/UX designers.", "3D artists.", "animators."],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    });
+</script>
+</html>

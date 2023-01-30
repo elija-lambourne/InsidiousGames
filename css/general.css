@@ -1,0 +1,85 @@
+*{
+    font-family: 'Nimbus_Light', sans-serif;
+}
+html {
+    background-color: #283149;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    min-height: 100%;
+}
+body{
+    color: whitesmoke;
+    min-height: 100%;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.divider{
+    color: #0D7377;
+    border: none;
+    height: .125rem;
+    margin: .3rem;
+}
+.no-hover:hover{
+    color: inherit;
+}
+.comp-name{
+    margin-right: auto;
+    margin-left: 2em;
+}
+.navigation{
+    width: 100%;
+
+    background-color: #212121;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+
+    display: flex;
+    gap: 2em;
+}
+.navigation li:last-of-type{
+    margin-right: 2em;
+}
+.nav-hover:hover{
+    color: #a5170c;
+}
+.footer{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+
+    background-color: #212121;
+}
+.footer .lead{
+    font-size: 1.2rem;
+}
+.copyright-disc{
+    font-size: .6rem;
+    margin-top: -1rem;
+    margin-bottom: .5rem;
+}
+.footer-links{
+    font-size: .9rem;
+}
+.footer-links a{
+    text-decoration: whitesmoke underline;
+}
+.footer-links a:hover{
+    color: #a5170c;
+    text-decoration: #a5170c underline;
+}
+.footer-links span{
+    color: #a5170c;
+}
+
+@font-face {
+    font-family: Nimbus_Bold;
+    src: url("../fonts/Nimbus_Bold.ttf");
+}
+@font-face {
+    font-family: Nimbus_Light;
+    src: url("../fonts/Nimbus_Light.ttf");
+}
