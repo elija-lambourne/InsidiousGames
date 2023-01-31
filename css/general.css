@@ -44,7 +44,7 @@ a{
     margin-right: 2em;
 }
 .nav-hover:hover{
-    color: #a5170c;
+    color: #c71c0f;
 }
 .footer{
     padding: 1rem;
@@ -68,11 +68,11 @@ a{
     text-decoration: whitesmoke underline;
 }
 .footer-links a:hover{
-    color: #a5170c;
-    text-decoration: #a5170c underline;
+    color: #c71c0f;
+    text-decoration: #c71c0f underline;
 }
 .footer-links span{
-    color: #a5170c;
+    color: #c71c0f;
 }
 
 @font-face {
